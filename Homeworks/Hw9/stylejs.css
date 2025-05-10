@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.course {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+}
+
+.course > div {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.course ul {
+    border: 1px solid blue;
+    padding: 10px;
+    list-style-type: square;
+    background-color: white;
+}
+
+.course li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
