@@ -1,0 +1,44 @@
+/* знаю смішно виглядає але я спочатку js писав а потім css ну і міняти вже не хотілось*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    gap: 10px;
+}
+input {
+    width: 97%;
+    height: 30px;
+}
+button {
+    width: 60%;
+    height: 20px;
+}
+.Not-18-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.96);
+    position: absolute;
+    gap: 30px;
+}
+.Not-18-Div h1 , .Not-18-Div p {
+    font-family: Arial, sans-serif;
+    color: white;
+}
